@@ -32,11 +32,16 @@
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rsd-Wz-fOi">
+                                <rect key="frame" x="18" y="156" width="337" height="486"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="messageLabel" destination="Zd6-mF-onN" id="vLP-YE-OUT"/>
+                        <outlet property="imageView" destination="rsd-Wz-fOi" id="hEY-nR-CjB"/>
+                        <outlet property="messageLabel" destination="Zd6-mF-onN" id="EPL-ZH-4Fc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
